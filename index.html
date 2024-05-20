@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>estudioLAAVA</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <!-- Can change name for company logo -->
       <div class="logo">estudioLAAVA</div>
-      <div>
-        <ul class="nav-links">
-          <!-- below code is optional/ Get Laurita opinion -->
-          <!-- <li><a href="#desktop-nav">Home</a></li> -->
+      <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+      <div id="container">
+        <div id="close" onclick="closeMenu()">&#10006;</div>
+        <ul class="nav-links" id="menu">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -368,8 +371,8 @@
     <footer>
       <nav>
         <div class="nav-links-container">
-          <ul class="nav-links">
-            <!-- <li><a href="#desktop-nav">Home</a></li> -->
+          <ul class="nav-links-footer">
+            <li><a href="#desktop-nav">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
