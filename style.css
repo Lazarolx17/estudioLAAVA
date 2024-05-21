@@ -244,7 +244,7 @@ section {
   height: 80vh;
   /* padding on top remove or keep optional */
   padding-top: 0;
-  background-image: url(/Assests/header-pic.jpg);
+  background-image: url(./Assests/header-pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
