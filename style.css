@@ -119,6 +119,28 @@ a:hover {
   cursor: default;
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* add margin for social icons incase you want more spacing 
+between the icons and the logo "estudioLAAVA */
+/* .social-icons {
+  margin-top: 10px;
+} */
+
+.social-icons a {
+  margin: 5px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: gray;
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {

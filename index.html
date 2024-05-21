@@ -10,16 +10,30 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script
+      src="https://kit.fontawesome.com/f31805bf65.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">estudioLAAVA</div>
+      <div class="logo-container">
+        <div class="logo">estudioLAAVA</div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/estudiolaava/" target="_blank">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a href="mailto:estudiolaava@gmail.com">
+            <i class="fa-solid fa-envelope fa-2x"></i>
+          </a>
+        </div>
+      </div>
       <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
       <div id="container">
         <div id="close" onclick="closeMenu()">&#10006;</div>
         <ul class="nav-links" id="menu">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contacts</a></li>
         </ul>
@@ -44,12 +58,11 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section__text">
+      <!-- BELOW IS OPTIONAL FOR THE FUTURE -->
+      <!-- <div class="section__text">
         <p class="section__text__p1">Hello, We're</p>
         <h1 class="title">estudioLAAVA</h1>
         <p class="section__text__p2">Architectures</p>
-        <!-- below optional if want to display some type of work resume add path to what needs to be opened
-        in the window.open(here) directory -->
         <div class="btn-container">
           <button class="btn btn-color-2" onclick="window.open()">
             Click here
@@ -59,21 +72,19 @@
           </button>
         </div>
         <div id="social-container">
-          <!-- add link to LinkedIn page in the href -->
           <img
             src="./Assests/linkedin.png"
             alt="LinkedIn profile"
             class="icon"
             onclick="location.href='https://www.linkedin.com/'"
           />
-          <!-- instagram goes here. added github for reference -->
           <img
             src="./Assests/github.png"
             alt="instagram profile"
             class="icon"
             onclick="location.href='https://www.instagram.com/'"
           />
-        </div>
+        </div> -->
       </div>
     </section>
     <section id="about">
@@ -129,17 +140,12 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
-      <!-- all these are examples i put just for reference.
-         Laurita can let you know what she likes to put or if this is okay. -->
+    <!-- <section id="experience">
       <p class="section__text__p1">Explore estudioLAAVA</p>
       <h1 class="title">Experience</h1>
-      <!-- below are just examples. Put in what type of job experience you have worked on. -->
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <!-- This section to be changed with proper info. all this info 
-            was AI generated for reference only -->
             <h2 class="experience-sub-title">Laurita De La Vega</h2>
             <div class="article-container">
               <article>
@@ -188,11 +194,7 @@
               </article>
             </div>
           </div>
-          <!-- copy from details-container unti last div
-            before img to add more team members -->
           <div class="details-container">
-            <!-- This section to be changed with proper info. all this info 
-            was AI generated for reference only -->
             <h2 class="experience-sub-title">Adrian Ulacia</h2>
             <div class="article-container">
               <article>
@@ -249,7 +251,7 @@
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
-    </section>
+    </section> -->
     <section id="projects">
       <p class="section__text__p1">Browse Our Recent</p>
       <h1 class="title">Projects</h1>
@@ -349,15 +351,12 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:estudiolaava.com@gmail.com">estudiolaava.com@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./Assests/linkedin.png"
-            alt="linkedin icon"
-            class="icon contact-icon"
-          />
-          <p><a href="//linkedin.com">LinkedIn</a></p>
+          <a href="https://www.instagram.com/estudiolaava/" target="_blank">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          <p><a href="https://www.instagram.com/estudiolaava/" target="_blank">estudioLAAVA</a></p>
         </div>
       </div>
     </section>

@@ -12,12 +12,12 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
 }
 
 @media screen and (max-width: 1200px) {
-  #desktop-nav {
+  /* #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
-  }
+  } */
 
   #experience,
   .experience-details-container {
@@ -121,5 +121,16 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
 
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-links-footer {
+    display: none; /* Hide nav links in footer on small screens */
+  }
+  footer {
+    height: 40vh;
+    padding: 0;
+    margin-top: 100px;
   }
 }
