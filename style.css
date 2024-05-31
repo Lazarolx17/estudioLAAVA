@@ -17,6 +17,7 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  font-size: 13px;
 }
 
 /* TRANSITIONS */
@@ -383,7 +384,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 0.1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
