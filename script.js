@@ -2,6 +2,7 @@
 function openMenu() {
   document.getElementById("container").style.right = "0%";
   document.getElementById("menu").style.opacity = "1";
+  document.body.style.overflow = "hidden"; // Disable scrolling on the body
 }
 
 function closeMenuAndScrollToSection(sectionId) {
@@ -11,11 +12,14 @@ function closeMenuAndScrollToSection(sectionId) {
   // Close the menu
   menuContainer.style.right = "-100%";
   menuContainer.querySelector("#menu").style.opacity = "0";
+  document.body.style.overflow = "auto"; // Re-enable scrolling on the body
 
   // Scroll to the clicked section
-  const section = document.getElementById(sectionId);
-  if (section) {
-    section.scrollIntoView({ behavior: "smooth" });
+  if (sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   }
 }
 
