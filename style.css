@@ -532,6 +532,7 @@ article .icon {
 footer {
   /* height: 26vh; */
   margin: 0 1rem;
+  padding-bottom: 2rem;
 }
 
 footer p {
