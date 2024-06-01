@@ -15,11 +15,9 @@ function closeMenuAndScrollToSection(sectionId) {
   document.body.style.overflow = "auto"; // Re-enable scrolling on the body
 
   // Scroll to the clicked section
-  if (sectionId) {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
   }
 }
 

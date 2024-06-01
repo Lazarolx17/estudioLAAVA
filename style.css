@@ -36,9 +36,12 @@ a,
 }
 
 #close {
-  position: fixed;
+  /* one option to position the X but shows in mobile phones */
+  /* position: fixed;
   top: 50px;
-  right: 430px;
+  right: 430px; */
+  float: right;
+  margin: 60px 425px;
   color: #000;
   /* transform: rotate(45deg); */
   font-size: 40px;
