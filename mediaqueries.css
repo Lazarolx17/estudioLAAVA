@@ -12,17 +12,12 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
 
   .glass-effect {
     background-color: rgba(227, 231, 243, 0.5);
+    -webkit-backdrop-filter: blur(12px); /* Safari */
     backdrop-filter: blur(12px);
 
-    /* have them pick either top or below */
-
-    /* background-color: transparent;
-    backdrop-filter: blur(12px);
-    background-image: linear-gradient(
-      120deg,
-      rgba(227, 231, 243, 0.5),
-      rgba(0, 0, 0, 0.2)
-    ); */
+    /* Alternative styles if backdrop-filter is not supported */
+    /* Fallback styles */
+    background-color: rgba(227, 231, 243, 0.2); /* More opaque background */
   }
 }
 
@@ -35,17 +30,12 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
   } */
   .glass-effect {
     background-color: rgba(227, 231, 243, 0.5);
+    -webkit-backdrop-filter: blur(12px); /* Safari */
     backdrop-filter: blur(12px);
 
-    /* have them pick either top or below */
-
-    /* background-color: transparent;
-    backdrop-filter: blur(12px);
-    background-image: linear-gradient(
-      120deg,
-      rgba(227, 231, 243, 0.5),
-      rgba(0, 0, 0, 0.2)
-    ); */
+    /* Alternative styles if backdrop-filter is not supported */
+    /* Fallback styles */
+    background-color: rgba(227, 231, 243, 0.2); /* More opaque background */
   }
 
   nav {
@@ -92,17 +82,12 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
 @media screen and (max-width: 600px) {
   .glass-effect {
     background-color: rgba(227, 231, 243, 0.5);
+    -webkit-backdrop-filter: blur(12px); /* Safari */
     backdrop-filter: blur(12px);
 
-    /* have them pick either top or below */
-
-    /* background-color: transparent;
-    backdrop-filter: blur(12px);
-    background-image: linear-gradient(
-      120deg,
-      rgba(227, 231, 243, 0.5),
-      rgba(0, 0, 0, 0.2)
-    ); */
+    /* Alternative styles if backdrop-filter is not supported */
+    /* Fallback styles */
+    background-color: rgba(227, 231, 243, 0.2); /* More opaque background */
   }
 
   nav {
@@ -194,17 +179,12 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
 
   .glass-effect {
     background-color: rgba(227, 231, 243, 0.5);
+    -webkit-backdrop-filter: blur(12px); /* Safari */
     backdrop-filter: blur(12px);
 
-    /* have them pick either top or below */
-
-    /* background-color: transparent;
-    backdrop-filter: blur(12px);
-    background-image: linear-gradient(
-      120deg,
-      rgba(227, 231, 243, 0.5),
-      rgba(0, 0, 0, 0.2)
-    ); */
+    /* Alternative styles if backdrop-filter is not supported */
+    /* Fallback styles */
+    background-color: rgba(227, 231, 243, 0.2); /* More opaque background */
   }
 }
 
@@ -217,17 +197,12 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
   }
   .glass-effect {
     background-color: rgba(227, 231, 243, 0.5);
+    -webkit-backdrop-filter: blur(12px); /* Safari */
     backdrop-filter: blur(12px);
 
-    /* have them pick either top or below */
-
-    /* background-color: transparent;
-    backdrop-filter: blur(12px);
-    background-image: linear-gradient(
-      120deg,
-      rgba(227, 231, 243, 0.5),
-      rgba(0, 0, 0, 0.2)
-    ); */
+    /* Alternative styles if backdrop-filter is not supported */
+    /* Fallback styles */
+    background-color: rgba(227, 231, 243, 0.2); /* More opaque background */
   }
 }
 
@@ -240,16 +215,11 @@ IF SOMEONE WOULD TO OPEN IN MOBILE PHONES INSTEAD OF A LAPTOP/PC */
   }
   .glass-effect {
     background-color: rgba(227, 231, 243, 0.5);
+    -webkit-backdrop-filter: blur(12px); /* Safari */
     backdrop-filter: blur(12px);
 
-    /* have them pick either top or below */
-
-    /* background-color: transparent;
-    backdrop-filter: blur(12px);
-    background-image: linear-gradient(
-      120deg,
-      rgba(227, 231, 243, 0.5),
-      rgba(0, 0, 0, 0.2)
-    ); */
+    /* Alternative styles if backdrop-filter is not supported */
+    /* Fallback styles */
+    background-color: rgba(227, 231, 243, 0.2); /* More opaque background */
   }
 }
