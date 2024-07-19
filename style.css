@@ -144,6 +144,11 @@ a:hover {
   align-items: center;
 }
 
+.highlight {
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* add margin for social icons incase you want more spacing 
 between the icons and the logo "estudioLAAVA */
 /* .social-icons {
